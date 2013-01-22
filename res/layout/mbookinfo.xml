@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/item"
+    android:drawingCacheQuality="high">
+    
+   <TextView 
+       android:id="@+id/bookname"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textColor="#0066FF"
+       android:text="书名"
+       android:textSize="15dip"
+       android:layout_marginLeft="10dip"
+       />
+   <TextView 
+       android:id="@+id/borrowtime"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/bookname"
+       android:text="借阅日期"
+       android:layout_marginLeft="10dip"
+       />
+   <TextView 
+       android:id="@+id/returntime"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/borrowtime"
+       android:text="应还日期"
+       android:layout_marginLeft="10dip"
+       />
+   
+   <TextView
+       android:id="@+id/rebooktimes"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="续借次数"
+       android:layout_below="@id/returntime"
+       android:layout_marginLeft="10dip"
+       />
+  <ImageButton 
+       android:id="@+id/rebookbutton"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_toRightOf="@id/borrowtime"
+       android:layout_marginLeft="100dip"
+       android:layout_alignTop="@id/borrowtime"
+       android:background="@drawable/rebookbut"/>
+</RelativeLayout>

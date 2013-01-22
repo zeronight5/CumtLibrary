@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">CUMTLib</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_lib">矿大图书馆</string>
+    <string name="scan_book">书籍检索</string>
+    <string name="login_text">登录我的图书馆</string>
+    <string name="inputnum">请输入学号</string>
+    <string name="inputpwd">请输入密码</string>
+    <string name="help">帮助</string>
+    <string name="helpdetail">1.如果无法登录，可能需要去图书馆网站进行帐号激活；\n2.读者信息查询初始密码为学号。</string>
+    <string name="mybook">我的借阅</string>
+    <string name="myfavorite">我的收藏</string>
+    <string name="resultlist">检索结果列表</string>
+    <string name="rebook">续借</string>
+    <string name="addfavorite">收藏</string>
+</resources>

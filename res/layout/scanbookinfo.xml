@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/item"
+    android:drawingCacheQuality="high"
+    >
+    
+   <TextView 
+       android:id="@+id/bookname"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textColor="#0066FF"
+       android:text="书名"
+       android:textSize="15dip"
+       android:layout_marginLeft="10dip"
+       />
+   <TextView 
+       android:id="@+id/booknum"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/bookname"
+       android:text="索书号"
+       android:layout_marginLeft="10dip"
+       />
+   <TextView 
+       android:id="@+id/storenum"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/booknum"
+       android:text="馆藏复本:"
+       android:layout_marginLeft="10dip"
+       />
+   <TextView 
+       android:id="@+id/surplusnum"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_toRightOf="@id/storenum"
+       android:layout_alignTop="@id/storenum"
+       android:text="可借复本:"
+       android:layout_marginLeft="10dip"
+       />
+   
+   <TextView
+       android:id="@+id/author"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="作者"
+       android:layout_below="@id/storenum"
+       android:layout_marginLeft="10dip"
+       />
+   <TextView 
+       android:id="@+id/factory"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/author"
+       android:layout_alignLeft="@id/author"
+       android:text="出版社"
+       
+       />
+</RelativeLayout>

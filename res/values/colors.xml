@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="region">#8000ff00</color>
+    <color name="listTitle">#ff23323b</color>
+    <color name="text">#ff848f9b</color>
+    <color name="write">#ffffffff</color>
+    <color name="black">#000000</color>
+    <color name="red">#FF0000</color>
+    <color name="bg">#eaeff6</color>
+    <color name="NameTextColor">#436EEE</color>
+    <color name="TextColor">#7f8182</color>
+    <color name="NameTextColor1">#48a9eb</color>
+</resources>
