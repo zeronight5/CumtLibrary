@@ -3,4 +3,4 @@ CumtLibrary
 
 An Android application for Cumt library.
 -----------
-本软件由Jay Sun和徐嘉良共同制作。
+简单的实现了中国矿业大学（徐州）图书馆的查询与续借功能。
